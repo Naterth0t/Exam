@@ -1,0 +1,55 @@
+
+ {
+    padding:20px; 
+}
+
+	
+header {
+    background-color:purple;
+    grid-area:header;
+    }
+
+nav {
+    background-color:green;
+    grid-area:nav;
+    }
+
+main {
+    background-color:blue;
+    grid-area:main;
+    }
+    
+section1 {
+    background-color:orange;
+    grid-area:section1;
+    }
+
+section2 {
+     background-color:grey;
+     grid-area:section2;
+}
+footer {
+    background-color:red;
+    grid-area:footer;
+    }
+
+/*------------------------------Mobile firstlayout-------------------------------*/
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:1fr; /*only 1 column needed on mobile*/
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "section1"
+    "section2"
+    "footer";
+    }
+
+/*----------------------------------Tablet layout-----------------------------------*/
+
+..container1 { /*for index.html*/
+  display: grid;
+
+
+/*----------------------------------Desktop layout-----------------------------------*/
