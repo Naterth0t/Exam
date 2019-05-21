@@ -4,31 +4,31 @@
 }
 
 	
-header {
+.header {
     background-color:purple;
     grid-area:header;
     }
 
-nav {
+.nav {
     background-color:green;
     grid-area:nav;
     }
 
-main {
+.main {
     background-color:blue;
     grid-area:main;
     }
     
-section1 {
+.section1 {
     background-color:orange;
     grid-area:section1;
     }
 
-section2 {
+.section2 {
      background-color:grey;
      grid-area:section2;
 }
-footer {
+.footer {
     background-color:red;
     grid-area:footer;
     }
