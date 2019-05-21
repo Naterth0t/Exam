@@ -46,6 +46,7 @@ footer {
     "footer";
     }
 .nestedgrid {
+	display: grid;
 	grid-template-areas:
 		"section1"
 		"section2";
@@ -64,6 +65,7 @@ footer {
    "footer footer";
 }
 .nestedgrid {
+	display: grid;
 	grid-template-areas:
 		"section1"
 		"section2";
@@ -81,6 +83,7 @@ footer {
    "footer footer footer";
 }
 .nestedgrid {
+	display: grid;
 	grid-template-areas:
 		"section1 section2";
 		
