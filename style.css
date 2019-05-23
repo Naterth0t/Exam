@@ -47,8 +47,9 @@ footer {
     "footer";
 }
 
+
 /*----------------------------------Tablet layout-----------------------------------*/
-@media only screen and (min-width: 480px)
+@media only screen and (min-width: 480px) {
 .container1 { /*for index.html*/
   display: grid;
   grid-template-columns:35% auto;
@@ -60,10 +61,10 @@ footer {
    "footer footer";
 
 }
-
+}
 
 /*----------------------------------Desktop layout-----------------------------------*/
-@media only screen and (min-width: 960px)
+@media only screen and (min-width: 960px){
 .container1 { /*for index.html*/
   display: grid;
   grid-template-columns:25% auto 30%;
@@ -73,5 +74,5 @@ footer {
    "nav main section2"
    "footer footer footer";
 
-		
+	}	
 	}
